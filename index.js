@@ -232,6 +232,9 @@ function 生成猫咪配置(hostName) {
 dns:
   enable: true
   ipv6: true
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  enhanced-mode: fake-ip
   nameserver:
     - 223.5.5.5
   fallback:
