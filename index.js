@@ -248,8 +248,8 @@ proxy-groups:
     proxies:
 ${代理配置}
 rules:
-  - GEOIP,CN,DIRECT
-  - GEOSITE,CN,DIRECT
+  - GEOSITE,cn,DIRECT
+  - GEOIP,cn,DIRECT
   - MATCH,自动选择
 `;
 }
